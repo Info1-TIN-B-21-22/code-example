@@ -15,18 +15,24 @@
 
 int main(){
 
-    printf("Bonjour, veuillez entrer la valeur 1\n");    
+    printf("Bonjour, veuillez entrer la valeur 1\n>");    
     int valeur1;
     scanf("%d", &valeur1);
 
-    printf("Bonjour, veuillez entrer la valeur 2\n");
+    printf("Veuillez entrer la valeur 2\n>");
     int valeur2;
     scanf("%d", &valeur2);
 
-    printf("La vleur 1 est : %d\n", valeur1);
-    printf("La vleur 2 est : %d\n", valeur2);
+    printf("La valeur 1 est : %d\n", valeur1);
+    printf("La valeur 2 est : %d\n", valeur2);
 
     int somme = valeur1 + valeur2;
+    if( valeur2 != 0 )
+    {
+        int div_entier = valeur1 / valeur2;
+        printf("La div entière vaut : %d\n", div_entier);
+    }
+
     double div = (double)valeur1 / valeur2; // cast explicite
 
     int div_entier = valeur1 / valeur2;
