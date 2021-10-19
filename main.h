@@ -1,4 +1,4 @@
 #pragma once
 
 void ex01_calcul();
-void ex02_scanf();
+int ex02_scanf();

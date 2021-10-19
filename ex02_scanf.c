@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void ex02_scanf(){
+int ex02_scanf(){
 
     printf("\n\033[1;34mExemple de scanf\n\033[0;30m");
 
@@ -11,7 +11,7 @@ void ex02_scanf(){
     printf("%d - %c\n", 'a',  97);
 
     int a=3, b=0, d=0;
-    char c;
+    char c='a';
     printf("Entrer A et B séparées par un espace : \n>");
     
     int ret = scanf("%d %d", &a, &b);
@@ -27,4 +27,6 @@ void ex02_scanf(){
     printf("La valeur de \"a\" est : %d\n", a);
     printf("La valeur de \"b\" est : %d\n", b);
     printf("La valeur de \"c\" est : %c\n", c);
+
+    return 0;
 }

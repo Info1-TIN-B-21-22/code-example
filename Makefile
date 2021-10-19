@@ -6,7 +6,7 @@
 EXEC=app
 
 CC=gcc
-CFLAGS+= -std=c99 -Wall -g
+CFLAGS+= -std=c99 -Wall -g -Wno-unused-variable
 CFLAGS+= -Iinclude
 LDLIBS:= -lm
 
