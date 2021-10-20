@@ -27,5 +27,6 @@ int main(int argc, char* argv[])
     }
     
     //ex01_calcul();
-    ex02_scanf();
+    //ex02_scanf();
+    exemple_date();
 }
