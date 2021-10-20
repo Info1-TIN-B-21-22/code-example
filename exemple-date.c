@@ -3,7 +3,7 @@
 int exemple_date(){
     printf("\n\033[1;34mExemple de date\n\033[0;30m");
 
-    printf("Veuillez entrer une date dans le format suivant : dd/mm/yyyy hh:mm\n>");
+    printf("Veuillez entrer une date dans le format suivant : yyyy/mm/dd hh:mm\n>");
 
     // 12/06/2018 22:12 => fonctionne
     // 42/06/2018 22:12 => fonctionne pas
