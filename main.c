@@ -86,5 +86,6 @@ int main(int argc, char* argv[])
     //ex02_scanf();
     //exemple_date();
 
-    ex_moyenne();
+    //ex_moyenne();
+    ex_complexe();
 }
