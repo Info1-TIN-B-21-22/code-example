@@ -4,6 +4,8 @@
 // bool
 #include <stdbool.h>
 
+#define SIZE_ARRAY 12
+
 // sans argument
 //int main(){
 
@@ -34,6 +36,11 @@ void Ajouter(int var){
 // argv : tableau (premier 0) chaine de caractère
 int main(int argc, char* argv[])
 {
+    td_crible();
+    return;
+
+    int tab[SIZE_ARRAY];
+
     printf("Nombre d'arg : %d\n", argc);
 
     // premier arg indice 0

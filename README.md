@@ -28,3 +28,15 @@ ou
 #define SIZE 10
 int tab[SIZE];
 ```
+
+## 07.12.21 - Les tableaux
+### Fonction
+- Un tableau est passé par référence dans une fonction du tableau
+
+### Define
+- un `#define` est un remplacement de texte
+- la syntaxe du `define` est : `#define SIZE 12`
+- il faut faire attention de ne pas mettre de `;` après le `define`
+
+## 15.12.21 - Crible
+- Développement du crible (td-crible.c)
